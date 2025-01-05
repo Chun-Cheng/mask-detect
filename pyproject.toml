@@ -1,0 +1,21 @@
+[project]
+name = "mask-detect"
+version = "0.1.0"
+description = "Detect whether the people wear masks."
+authors = [
+    {name = "Chun-Cheng Yu"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "opencv-python (>=4.10.0.84,<5.0.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "ultralytics (>=8.3.57,<9.0.0)",
+    "numpy (>=1,<2)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
