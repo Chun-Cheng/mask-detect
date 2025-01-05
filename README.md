@@ -10,12 +10,12 @@ Detect whether the people wear masks.
 
 ### Environment setup
 
-1. Install [Python](https://www.python.org/) (>=3.12), [Poetry](https://python-poetry.org/docs/#installation) (>=2.0).
+1. Install [Python](https://www.python.org/) and [uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 2. Install dependencies.
 
     ```sh
-    poetry sync --no-root
+    uv sync
     ```
 
 ### Detect
